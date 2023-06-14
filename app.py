@@ -78,10 +78,10 @@ def main():
 
 
     age = st.slider("Возраст", 18, 68)
-    car_own_flg = st.selectbox("Есть автомобиль (1=да)?", ['0', '1'])
+    car_own_flg = st.selectbox("Есть автомобиль (0=да)?", ['0', '1'])
     Score_bki = st.slider('Скоринговый балл', 0, 400)
     
-    education_cd_GRD = st.selectbox("Высшее образование (1=да)", ['0', '1'])
+    education_cd_GRD = st.selectbox("Высшее образование (0=да)", ['0', '1'])
 
     appl_rej_cnt = st.slider('Количество отказанных прошлых заявок', 0, 20)
 
@@ -89,10 +89,10 @@ def main():
     income = st.slider("Зарплата", 0.00, 20000.00)
 
 
-    Air_flg = st.selectbox("Наличие загран паспорта (1=да)", ['0', '1'])
+    Air_flg = st.selectbox("Наличие загран паспорта (0=да)", ['0', '1'])
 
 
-    gender_cd_F = st.selectbox("Женщина (1=да)", ['0', '1'])
+    gender_cd_F = st.selectbox("Женщина (0=да)", ['0', '1'])
 
     gender_cd_M = st.selectbox("Мужчина (0=да)", ['0', '1'])
 
